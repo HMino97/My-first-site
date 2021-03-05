@@ -1,0 +1,75 @@
+html,body
+{
+   height:100%;
+   margin: 0%;
+}
+
+.home, .side
+{
+  height:100%;
+  font-family: serif;
+}
+
+.home
+{
+    width: 75%;
+    float: left;
+    text-align: center;
+    color: #4e4c4c;
+    font-size: 200%;
+}
+
+.background
+{
+  position: relative;
+  z-index:0;
+  height: 100%;
+  background-image: url('images/home_background.jpg');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-position: center;
+  filter: blur(3px);
+  
+}
+
+.foreground
+{
+ position: relative;
+ z-index: 1;
+}
+
+#logo
+{
+  border-radius: 50%;
+  size: 50% 50%;
+  margin:5%;
+}
+
+.side
+{
+    width: 25%;
+    background-color: #fff4ff;
+    float: right;
+    text-align: center;
+}
+
+.line
+{
+  width: 90%;
+  
+}
+
+a
+{
+  color: #535253;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+#mail,#github
+{
+  width: 15%;
+  margin-top: 25%;
+  margin-bottom: 25% 
+}
+
